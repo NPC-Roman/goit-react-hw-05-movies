@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_KEY = '';
-const baseURL = '';
+const API_KEY = 'd2d3492027db5ed5774b8abf017189bc';
+const baseURL = 'https://api.themoviedb.org';
 
 export const fetchPopularFilms = async () => {
   const res = await axios.get(
@@ -37,5 +37,4 @@ export const getMovieReviews = async id => {
 };
 
 export const IMG_URL = '';
-export const defaultActor =
-  '';
+export const defaultActor = '';
