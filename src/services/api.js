@@ -36,5 +36,6 @@ export const getMovieReviews = async id => {
   return res.data;
 };
 
-export const IMG_URL = '';
-export const defaultActor = '';
+export const IMG_URL = 'https://image.tmdb.org/t/p/w500/';
+export const defaultActor =
+  'https://tanzolymp.com/images/default-non-user-no-photo-1.jpg';
