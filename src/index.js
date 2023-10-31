@@ -17,6 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 );
 
 /*npm i react-dom*/
+/*npm i react-hook-form*/
+/*npm i styled-components*/
 
 /*
 import React from 'react';
