@@ -18,7 +18,6 @@ const MovieDetails = () => {
       .then(results => setMovie(results))
       .catch(err => console.log(err));
   }, [id]);
-  // console.log(movie);
   const date = () => new Date(movie.release_date).getFullYear();
 
   return (

@@ -6,9 +6,8 @@
 .description {
   flex-direction: column;
   margin-left: 40px;
-  /*margin-left: 30px;*/
 
-  width: 800px; 
+  width: 800px;
 }
 
 .btnGoBack,
@@ -16,10 +15,10 @@
   margin-left: 50px;
 
   font-size: 18px;
-  font-weight: bold;  
+  font-weight: bold;
   text-decoration: none;
- 
-  color: #000000;
+
+  color: black;
 
   cursor: pointer;
   transition: color 250ms;
@@ -29,7 +28,6 @@
   color: #83c922;
 }
 .title {
-  /*margin-left: 50px;*/
   margin-left: 40px;
 }
 
@@ -40,5 +38,5 @@
 .infoListItem {
   margin-top: 10px;
 
-  list-style: none; 
+  list-style: none;
 }
