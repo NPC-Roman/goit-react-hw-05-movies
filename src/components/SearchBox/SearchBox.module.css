@@ -15,7 +15,7 @@
   height: 24px;
   font-size: 20px; 
   
-  border: 1px solid rgb(104, 104, 104);
+  border: 1px solid rgb(109, 104, 104);
   border-radius: 5px;  
 }
 
@@ -33,7 +33,7 @@
   font-size: 20px;
  
   border-radius: 5px;
-  border: 1px solid rgb(104, 104, 104);
+  border: 1px solid rgb(109, 104, 104);
 
   cursor: pointer;
 }
