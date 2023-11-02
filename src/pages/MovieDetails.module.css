@@ -2,28 +2,35 @@
   display: flex;
   margin-left: 50px;
 }
+
 .description {
-  margin-left: 30px;
-  width: 800px;
   flex-direction: column;
+  margin-left: 40px;
+  /*margin-left: 30px;*/
+
+  width: 800px; 
 }
 
 .btnGoBack,
 .infoListItem {
-  font-size: 18px;
-  font-weight: bold;
   margin-left: 50px;
+
+  font-size: 18px;
+  font-weight: bold;  
   text-decoration: none;
+ 
+  color: #000000;
+
   cursor: pointer;
-  color: #000;
   transition: color 250ms;
 }
 
 .btnGoBack:hover {
-  color: rgb(201, 103, 103);
+  color: #83c922;
 }
 .title {
-  margin-left: 50px;
+  /*margin-left: 50px;*/
+  margin-left: 40px;
 }
 
 .info {
@@ -31,6 +38,7 @@
 }
 
 .infoListItem {
-  list-style: none;
   margin-top: 10px;
+
+  list-style: none; 
 }

@@ -1,18 +1,22 @@
 .form {
-  margin-left: 50px;
   display: flex;
+  
+  margin-left: 50px;  
 }
 
 .inputForm {
   display: inline-block;
   font: inherit;
-  font-size: 20px;
-  height: 24px;
+
+  margin-right: 15px;
   padding-left: 4px;
   padding-right: 4px;
-  border: 1px solid rgb(109, 104, 104);
-  border-radius: 5px;
-  margin-right: 15px;
+
+  height: 24px;
+  font-size: 20px; 
+  
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 5px;  
 }
 
 .inputForm::placeholder {
@@ -21,12 +25,15 @@
 }
 
 .inputBtn {
+  padding-left: 4px;
+  padding-right: 4px;
+
   width: 100px;
   height: 28px;
   font-size: 20px;
-  padding-left: 4px;
-  padding-right: 4px;
+ 
   border-radius: 5px;
-  border: 0.5px solid rgb(109, 104, 104);
+  border: 1px solid rgb(104, 104, 104);
+
   cursor: pointer;
 }

@@ -8,7 +8,6 @@ import Loader from 'components/Loader/Loader';
 const Movies = () => {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(false);
-  // const [query, setQuery] = useState('');
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get('query') ?? '';
   const location = useLocation();
@@ -26,7 +25,6 @@ const Movies = () => {
 
   const onSearch = query => {
     setSearchParams(query !== '' ? { query } : {});
-    // setQuery(query);
     setMovies(movies);
   };
 

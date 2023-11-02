@@ -1,8 +1,10 @@
 .reviewsList {
-  max-width: 1400px;
-  margin-left: 50px;
-  list-style: none;
   margin-top: 50px;
+  margin-left: 50px;
+
+  max-width: 1400px; 
+
+  list-style: none;  
 }
 
 .reviewsListItem {
@@ -10,6 +12,6 @@
 }
 
 .noReviews {
-  margin-left: 50px;
   margin-top: 25px;
+  margin-left: 50px; 
 }

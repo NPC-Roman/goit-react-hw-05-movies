@@ -39,11 +39,3 @@ export const getMovieReviews = async id => {
 export const IMG_URL = 'https://image.tmdb.org/t/p/w500/';
 export const defaultActor =
   'https://tanzolymp.com/images/default-non-user-no-photo-1.jpg';
-
-/*
-const API_KEY = 'd2d3492027db5ed5774b8abf017189bc';
-const baseURL = 'https://api.themoviedb.org';
-
-export const IMG_URL = 'https://image.tmdb.org/t/p/w500/';
-export const defaultActor =
-  'https://tanzolymp.com/images/default-non-user-no-photo-1.jpg';*/
